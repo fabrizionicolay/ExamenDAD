@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class Conexion {
-    private static final String URL = "jdbc:postgresql://ec2-54-158-247-210.compute-1.amazonaws.com:5432/d2kn6f4htd8kem";
+    private static final String URL = "jdbc:postgresql://ec2-34-231-177-125.compute-1.amazonaws.com";
     private static final String DRIVER = "org.postgresql.Driver";
-    private static final String PASS = "e7af3d2f59861fbd52be30ced8cc3340b2fe871f4742166deed2ab936047ddac";
-    private static final String USER = "gfftgnqnjrbtdj";
+    private static final String PASS = "9d4aec3709161b92adea716cbc31e131bd8675c56009680029d4485751b40396";
+    private static final String USER = "evsgzohyirrfko";
     private static Connection cx = null;
     
     public static Connection getConn() {
